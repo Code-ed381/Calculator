@@ -1,0 +1,66 @@
+h1 {
+    border: 1x solid;
+}
+a {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #c5c5c1;
+    border-radius: 10px;
+    box-shadow: 2px 3px #8888;
+    background-color: tomato;
+}
+.history, .output {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #c5c5c1;
+    border-radius: 10px;
+    box-shadow: 2px 3px #8888;
+}
+#operator {
+    margin-left: 5px !important;
+}
+.one {
+    margin-left: 15px !important;
+}
+a:hover {
+    cursor: pointer;
+}
+a:active {
+    box-shadow: inset 0 0 10px #000000;
+}
+.zero {
+    margin-left: 15px !important;
+    padding-left: 100px;
+}
+#number {
+    margin-left: 10px;
+}
+.dot {
+    margin-left: 10px;
+}
+.equal {
+    margin-left: 10px;
+
+}
+.history {
+    border-radius: 10px 10px 0 0 !important;
+    width: 250px !important;
+    box-shadow: 0px 0px !important;
+    border-bottom: 0px !important;
+    background-color: rgb(179, 173, 173);
+}
+.output {
+    width: 250px !important;
+    box-shadow: 0px 0px !important;
+    border-radius: 0 0 10px 10px !important;
+    border-top: 0px !important;
+    background-color: rgb(179, 173, 173);
+}
